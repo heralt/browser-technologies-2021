@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+<%- include('../template/head') -%>
+<body>
+<header>
+    <h1>Home</h1>
+</header>
+<main>
+    <section>
+        <form action="/upload" method="post" enctype="multipart/form-data">
+            <label for="upload picture">Upload foto</label><br>
+            <input type="file"
+                   id="upload picture"
+                   name="picture"
+                   accept="image/jpeg, image/png">
+            <input type="submit">
+        </form>
+    </section>
+    <button>Create album</button>
+</main>
+<%- include('../template/footer') -%>
+</body>
+</html>
