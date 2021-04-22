@@ -1,0 +1,165 @@
+
+.smallHeader {
+    height: 10vh;
+    margin-left: 6vw;
+    margin-top: 5vh;
+    margin-bottom: 1vh;
+    width: 90%;
+}
+
+.smallFooter {
+    flex: 1;
+    margin-top: 20px;
+}
+
+/*main section*/
+.main {
+    height: 70vh;
+    width: 90%;
+    margin-left: 6vw;
+    display: flex;
+    flex-flow: row;
+}
+
+.imagesContainer {
+    height: 100%;
+    width: 70vw;
+    border: black 1px solid;
+}
+
+.images {
+    height: 65vh;
+    width: 67vw;
+    margin-left: 3vw;
+    margin-top: 2vh;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    overflow-y: auto;
+}
+
+.images > a {
+    max-height: 25vh;
+    max-width: 30vw;
+    margin-top: 2vh;
+    margin-left: 2vw;
+    margin-bottom: 2vh;
+    display: table;
+}
+
+.images * img {
+    max-height: 100%;
+    max-width: 100%;
+    display: table-row;
+}
+
+.metaContainer {
+    height: 100%;
+    width: 70vw;
+    border: black 1px solid;
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+}
+
+.metaContainer > form {
+    display: flex;
+    flex-flow: column;
+    margin-left: 2vw;
+    margin-top: 3vh;
+}
+
+.metaContainer > img {
+    max-height: 45vh;
+    max-width: 45vw;
+    margin-top: 2vh;
+    margin-left: 2vw;
+}
+
+.navContainer {
+    height: 101%;
+    width: 10vw;
+    display: flex;
+    flex-flow: column;
+    margin-left: 2vw;
+}
+
+.addPicture {
+    width: auto;
+    height: 20vh;
+}
+
+.addPicture * button {
+    margin-top: 1vh;
+}
+
+.albums {
+    display: inline-flex;
+    flex-flow: row wrap;
+    margin: 0;
+    justify-content: flex-start;
+    overflow-y: auto;
+}
+
+.albums {
+    width: 15vw;
+    height: 50vh;
+    border: black solid 1px;
+}
+
+.albums > a {
+    width: 12vw;
+    height: 12vh;
+    margin: 0 auto;
+}
+
+.albums * div {
+    width: 100%;
+    height: 100%;
+    background-color: indianred;
+}
+
+/* Add image to album screen*/
+.addToAlbumContainer {
+    height: 100%;
+    width: 90vw;
+    border: black 1px solid;
+}
+
+.addToAlbumContainer > form > section {
+    width: 80vw;
+}
+
+.addToAlbumContainer > form > section > label {
+    max-height: 30vh;
+    max-width: 35vw;
+    margin-top: 5vh;
+
+}
+
+input[type=checkbox] {
+    display: none;
+}
+
+.highlight input[type="checkbox"]:checked + img {
+    border: 3px solid #888;
+}
+
+.slideshowNoJS {
+    height: 100%;
+    width: 90vw;
+    display: flex;
+    flex-direction: row;
+    overflow-x: auto;
+}
+
+.slideshowNoJS > img {
+    margin-left: 10vw;
+    margin-right: 10vw;
+}
+
+.mySlides {display:none;}
+
+.w3-display-container img {
+    margin: auto;
+}

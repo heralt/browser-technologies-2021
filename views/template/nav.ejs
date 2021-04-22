@@ -1,0 +1,31 @@
+<section class="navContainer">
+    <section class="addPicture">
+        <form action="/upload" method="post" enctype="multipart/form-data">
+            <label for="upload picture">Upload photo</label><br>
+            <input type="file"
+                   id="upload picture"
+                   name="picture"
+                   accept="image/jpeg, image/png">
+            <input value="add picture" type="submit">
+        </form>
+        <form action="/createAlbum" method="get">
+            <button>Create album</button>
+        </form>
+    </section>
+    <section class="albums">
+        <% if(albums.length > 0 && albums) { %>
+            <% albums.forEach(album => { %>
+                <a href="../album/<%= album.id %>">
+                    <div id="<%= album.id %>" ondrop="drop(event)" ondragover="allowDrop(event)">
+                        <p><%= album.name %></p>
+                    </div>
+                    <form action="../delete/<%= album.id %>" method="post">
+                        <input type="submit" value="delete album">
+                    </form>
+                </a>
+            <% }); %>
+        <% } else { %>
+            <p>Create albums</p>
+        <% } %>
+    </section>
+</section>

@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+<%- include('../template/head') -%>
+<body class="container">
+<header class="smallHeader">
+    <h1>Create Album</h1>
+    <a href="http://localhost:3000/">
+        <button>home</button>
+    </a>
+</header>
+<main class="main">
+    <section class="addToAlbumContainer">
+        <form action="/createAlbum" method="post">
+            <label for="albumName">Naam album</label>
+            <input type="text" name="albumName">
+            <input type="submit" value="create">
+            <section class="images">
+                <% if(files){ %>
+                    <% files.reverse().forEach((file, i) => { %>
+                        <label class="highlight" for="image<%= i %>">
+                                <input type="checkbox" name="image" id="image<%= i %>" value="<%= file.filename %>">
+                                <% if(file.isImage){ %>
+                                    <img src="image/<%= file.filename %>" alt="<%= file.beschrijving %>">
+                                <% } else { %>
+                                    <%= file.filename %>
+                                <% } %>
+                        </label>
+                    <% }); %>
+                <% } else  { %>
+                    <p>No files found</p>
+                <% } %>
+            </section>
+
+        </form>
+    </section>
+</main>
+<%- include('../template/footer') -%>
+</body>
+</html>

@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+<%- include('../template/head') -%>
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<body class="container">
+<header class="smallHeader">
+    <h1>slideshow</h1>
+    <a href="http://localhost:3000/">
+        <button>home</button>
+    </a>
+</header>
+<main class="main">
+    <section class="w3-content w3-display-container">
+        <% if(files){ %>
+            <% files.reverse().forEach(file => { %>
+                <% if(file.isImage){ %>
+                    <img class="mySlides" src="../image/<%= file.filename %>" alt="<%= file.beschrijving %>" style="max-width:100%; max-height:100%;">
+                <% } else { %>
+                    <%= file.filename %>
+                <% } %>
+            <% }); %>
+        <% } else  { %>
+            <p>No files found</p>
+        <% } %>
+            <button class="w3-button w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+            <button class="w3-button w3-display-right" onclick="plusDivs(+1)">&#10095;</button>
+    </section>
+</main>
+<%- include('../template/footer') -%>
+<script type="text/javascript" src="/js/slideshow.js"></script>
+</body>
+</html>

@@ -1,23 +1,58 @@
 <!doctype html>
 <html lang="en">
 <%- include('../template/head') -%>
-<body>
-<header>
+<body class="container">
+<header class="smallHeader">
     <h1>Home</h1>
 </header>
-<main>
-    <section>
-        <form action="/upload" method="post" enctype="multipart/form-data">
-            <label for="upload picture">Upload foto</label><br>
-            <input type="file"
-                   id="upload picture"
-                   name="picture"
-                   accept="image/jpeg, image/png">
-            <input type="submit">
+<main class="main">
+    <section class="imagesContainer">
+        <form id="jsbutton" action="./jsSlideshow" method="post" style="display: none">
+            <input type="hidden" name="images" value="<%= JSON.stringify(files); %>">
+            <button type="submit">slideshow</button>
         </form>
+        <noscript>
+            <form action="./slideshow" method="post">
+                <input type="hidden" name="images" value="<%= JSON.stringify(files); %>">
+                <button type="submit">slideshow</button>
+            </form>
+        </noscript>
+        <section class="images">
+            <% if(files){ %>
+                <% files.reverse().forEach(file => { %>
+                    <a href="imageMeta/<%= file.filename %>">
+                        <% if(file.isImage){ %>
+                        <img id="<%= file.filename %>" draggable="true" src="../image/<%= file.filename %>"
+                             alt="<%= file.beschrijving %>"
+                             ondragstart="drag(event)">
+                        <% } else { %>
+                            <%= file.filename %>
+                        <% } %>
+                        <form method="POST" action="/files/<%= file.filename %>?_method=DELETE">
+                            <button>delete</button>
+                        </form>
+                    </a>
+                <% }); %>
+            <% } else  { %>
+                <p>No files found</p>
+            <% } %>
+        </section>
     </section>
-    <button>Create album</button>
+    <% if(!albums){ %>
+        <%- include("../template/nav") -%>
+    <% } else { %>
+        <%- include("../template/nav",{albums:albums}) -%>
+    <% } %>
 </main>
 <%- include('../template/footer') -%>
+<script src="/js/dragNdrop.js" type="text/javascript"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js" type="text/javascript"></script>
+<script type="text/javascript">
+    $(document).ready(function () {
+
+        $("#jsbutton").show();
+
+    });
+</script>
 </body>
 </html>

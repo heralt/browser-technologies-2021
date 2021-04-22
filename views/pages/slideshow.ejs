@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+<%- include('../template/head') -%>
+<body class="container">
+<header class="smallHeader">
+    <h1>slideshow</h1>
+    <a href="http://localhost:3000/">
+        <button>home</button>
+    </a>
+</header>
+<main class="main">
+    <section class="slideshowNoJS">
+        <% if(files){ %>
+            <% files.reverse().forEach(file => { %>
+                    <% if(file.isImage){ %>
+                        <img src="../image/<%= file.filename %>" alt="<%= file.beschrijving %>">
+                    <% } else { %>
+                        <%= file.filename %>
+                    <% } %>
+            <% }); %>
+        <% } else  { %>
+            <p>No files found</p>
+        <% } %>
+    </section>
+</main>
+<%- include('../template/footer') -%>
+</body>
+</html>

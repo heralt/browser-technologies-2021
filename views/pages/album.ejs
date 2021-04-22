@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+<%- include('../template/head') -%>
+<body class="container">
+<header class="smallHeader">
+    <h1><%= thisAlbum.name %></h1>
+    <a href="http://localhost:3000/">
+        <button>home</button>
+    </a>
+</header>
+<main class="main">
+    <section class="imagesContainer">
+        <section class="images">
+            <% if(thisAlbum.photos.length > 0) { %>
+                <% thisAlbum.photos.reverse().forEach(file => { %>
+                    <a href="../imageMeta/<%= file["img"] %>">
+                        <img src="../image/<%= file["img"] %>" alt="">
+                    </a>
+                <% }); %>
+            <% } else { %>
+                <p>Add photos to this album</p>
+            <% } %>
+        </section>
+    </section>
+    <%- include("../template/nav",{albums:albums}) -%>
+</main>
+<%- include('../template/footer') -%>
+</body>
+</html>

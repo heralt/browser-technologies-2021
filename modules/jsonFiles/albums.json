@@ -1,0 +1,19 @@
+{
+  "albums": [
+    {
+      "id": "pi1dfps92",
+      "name": "new",
+      "photos": [
+        {
+          "img": "325d215555b19b646b435b8ad822c515.jfif"
+        },
+        {
+          "img": "5cf72f7b682a21b017fcce22959ef3b1.jfif"
+        },
+        {
+          "img": "0b70b98986b122d100741a5f52550a51.jfif"
+        }
+      ]
+    }
+  ]
+}

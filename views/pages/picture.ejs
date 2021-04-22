@@ -2,11 +2,37 @@
 <html lang="en">
 <%- include('../template/head') -%>
 <body>
-<header>
+<header class="smallHeader">
     <h1>Picture</h1>
+    <a href="http://localhost:3000/">
+        <button>home</button>
+    </a>
 </header>
-<main>
-
+<main class="main">
+    <section class="metaContainer">
+        <img src="../image/<%= file %>" alt="">
+        <form id="imageMeta" action="/imageMeta" method="post">
+            <label for="albums">Stop in album:</label>
+            <select name="albums" id="">
+                <% if(albums.length > 0) { %>
+                    <option value="">--Please choose an album--</option>
+                    <% albums.forEach(album => { %>
+                        <option value="<%= album.id%>"><%=album.name%></option>
+                    <% }); %>
+                <% } else { %>
+                    <option value="">--Create an album--</option>
+                <% } %>
+            </select>
+            <label for="beschrijving">Beschrijving:</label>
+            <textarea name="beschrijving" id="" cols="30" rows="10"></textarea>
+            <label for="locatie">Locatie</label>
+            <input type="text" id="" name="locatie">
+            <label for="fotograaf">Genomen door:</label>
+            <input type="text" id="" name="fotograaf">
+            <input type="hidden" name="image" value="<%=file%>">
+            <input type="submit" value="done">
+        </form>
+    </section>
 </main>
 <%- include('../template/footer') -%>
 </body>
