@@ -35,13 +35,13 @@ const conn = mongoose.createConnection(uri,{
     useCreateIndex: true
 });
 
-
 //init gfs
 let gfs;
 
 conn.once('open', () => {
     gfs = Grid(conn.db, mongoose.mongo);
     gfs.collection('pictures');
+    console.log('database geopend');
 });
 
 //create storage engine
@@ -163,6 +163,7 @@ app.get('/files', (req, res) => {
 
 //display single file data
 app.get('/files/:filename', (req, res) => {
+    console.log('hier');
     gfs.files.findOne({filename: req.params.filename}, (err, file) => {
         if (!file || file.length === 0) {
             return res.status(404).json({
@@ -175,6 +176,7 @@ app.get('/files/:filename', (req, res) => {
 
 //get single image
 app.get('/image/:filename', (req, res) => {
+    console.log("lees fotos")
     gfs.files.findOne({filename: req.params.filename}, (err, file) => {
         if (!file || file.length === 0) {
             return res.status(404).json({

@@ -9,12 +9,12 @@
     <section class="imagesContainer">
         <form id="jsbutton" action="./jsSlideshow" method="post" style="display: none">
             <input type="hidden" name="images" value="<%= JSON.stringify(files); %>">
-            <button type="submit">slideshow</button>
+            <button class="slideshow" type="submit">slideshow</button>
         </form>
         <noscript>
             <form action="./slideshow" method="post">
                 <input type="hidden" name="images" value="<%= JSON.stringify(files); %>">
-                <button type="submit">slideshow</button>
+                <button class="slideshow" type="submit">slideshow</button>
             </form>
         </noscript>
         <section class="images">
