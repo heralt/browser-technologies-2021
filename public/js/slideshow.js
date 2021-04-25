@@ -16,3 +16,9 @@ function showDivs(n) {
     }
     x[slideIndex-1].style.display = "block";
 }
+
+setInterval(autoNext, 8000);
+
+function autoNext(){
+    plusDivs(+1);
+}

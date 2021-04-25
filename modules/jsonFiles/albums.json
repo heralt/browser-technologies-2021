@@ -1,52 +1,28 @@
 {
   "albums": [
     {
-      "id": "mo48k8u7y",
-      "name": "album",
+      "id": "qek9oyjbv",
+      "name": "test",
       "photos": [
         {
           "img": "2be2c04a9718428e34434fdc9df2cb94.jfif"
+        },
+        {
+          "img": "428989a1e5009aab914269fcf4f821c2.jfif"
+        },
+        {
+          "img": "f62ffe94f2057b1338c2b73b4b576a8a.jpg"
+        },
+        {
+          "img": "7226fd81ca90a7f2477f5346c9266997.jpg"
         },
         {
           "img": "0b70b98986b122d100741a5f52550a51.jfif"
         },
         {
-          "img": "f62ffe94f2057b1338c2b73b4b576a8a.jpg"
-        },
-        {
-          "img": "f62ffe94f2057b1338c2b73b4b576a8a.jpg"
+          "img": "63a9fc5a9d7e05b4259cc5f2bb0258a6.jpg"
         }
       ]
-    },
-    {
-      "id": "rpt8oq6ca",
-      "name": "new",
-      "photos": [
-        {
-          "img": "428989a1e5009aab914269fcf4f821c2.jfif"
-        },
-        {
-          "img": "2be2c04a9718428e34434fdc9df2cb94.jfif"
-        },
-        {
-          "img": "e695b98f8459e118e4332dbe4c1d6589.jfif"
-        }
-      ]
-    },
-    {
-      "id": "pnqs8zsav",
-      "name": "oranje",
-      "photos": []
-    },
-    {
-      "id": "q53kqliek",
-      "name": "birfdai",
-      "photos": []
-    },
-    {
-      "id": "0axy4mvs8",
-      "name": "test",
-      "photos": []
     }
   ]
 }

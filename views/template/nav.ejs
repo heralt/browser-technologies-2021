@@ -16,7 +16,7 @@
         <% if(albums.length > 0 && albums) { %>
             <% albums.forEach(album => { %>
                 <a href="../album/<%= album.id %>">
-                    <div id="<%= album.id %>" ondrop="drop(event)" ondragover="allowDrop(event)">
+                    <div id="<%= album.id %>" class="<%= album.name %>" ondrop="drop(event)" ondragover="allowDrop(event)">
                         <p><%= album.name %></p>
                     </div>
                     <form action="../delete/<%= album.id %>" method="post">

@@ -38,11 +38,41 @@ const conn = mongoose.createConnection(uri,{
 //init gfs
 let gfs;
 
+conn.on('connecting', () => {
+    console.log('connecting to MongoDB...');
+});
+
+conn.on('error', function(error) {
+    console.error('Error in MongoDb connection: ' + error);
+    mongoose.disconnect();
+});
+
+conn.on('connected', function() {
+    console.log('MongoDB connected!');
+});
+
 conn.once('open', () => {
     gfs = Grid(conn.db, mongoose.mongo);
     gfs.collection('pictures');
     console.log('database geopend');
 });
+
+conn.on('reconnected', function () {
+    console.log('MongoDB reconnected!');
+});
+conn.on('disconnected', function() {
+    console.log('MongoDB disconnected!');
+    mongoose.connect(uri, {server:{auto_reconnect:true}});
+});
+mongoose.connect(uri, {server:{auto_reconnect:true}});
+
+function reconnect() {
+    conn.once('open', () => {
+        gfs = Grid(conn.db, mongoose.mongo);
+        gfs.collection('pictures');
+        console.log('reconnected');
+    });
+}
 
 //create storage engine
 const storage = new GridFsStorage({
@@ -176,7 +206,7 @@ app.get('/files/:filename', (req, res) => {
 
 //get single image
 app.get('/image/:filename', (req, res) => {
-    console.log("lees fotos")
+
     gfs.files.findOne({filename: req.params.filename}, (err, file) => {
         if (!file || file.length === 0) {
             return res.status(404).json({
