@@ -15,6 +15,11 @@ Woensdag had ik met mijn team gekeken naar een goed metafoor om prograssive enha
 We hadden ook snel een site gemaakt om ons voorbeeld te visualizeren, hier is het voorbeeld te zien: [Hotdog metafoor](https://pe-xi.vercel.app/)
 
 ### Opdracht 2 💔 Breek het Web
+Donderdag moest ik het web breken op twee verschillende manieren. De rede hiervoor was, om erachter te komen wat er gebeurt in browsers als bepaalde functionaliteiten niet ondersteund worden. Ik heb gekozen voor afbeeldingen uitzetten en slecht internet. 
+
+Ik heb twee korte verslagen geschreven en die zijn hier te vinden:
+- [breedband](https://github.com/sjagoori/pe/wiki/Breek-het-web---heralt---Breedband)
+- [afbeeldingen](https://github.com/sjagoori/pe/wiki/Afbeeldingen--uitzetten----heralt)
 
 ### De eindopdracht ✨ Progressive Enhanced Browser Technologie
 
