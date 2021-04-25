@@ -10,6 +10,10 @@ In het vak Browser Technologies gaan we onderzoeken wat Progressive Enhancement 
 
 het vak bestaat uit 3 opdrachten. In week 1 werken we aan opdracht 1 en 2. Vanaf week 2 werken we aan de eindopdracht.
 
+### Opdracht 1 ✨ NPM install Progressive- enhancement
+
+### Opdracht 2 ✨ Breek het Web
+
 ### De eindopdracht ✨ Progressive Enhanced Browser Technologie
 
 Voor de eindopdracht ontwerp en maak je een interactieve toepassing volgens het principe van Progressive Enhancement. Zorg dat alle gebruikers, met alle browsers, in iedere context de toepassing zo goed mogelijk te zien, horen en/of voelen krijgen. De meest 'enhanced' versie is 'delightful UX', mooi en prettig om te gebruiken.
