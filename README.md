@@ -10,9 +10,11 @@ In het vak Browser Technologies gaan we onderzoeken wat Progressive Enhancement 
 
 het vak bestaat uit 3 opdrachten. In week 1 werken we aan opdracht 1 en 2. Vanaf week 2 werken we aan de eindopdracht.
 
-### Opdracht 1 ✨ NPM install Progressive- enhancement
+### Opdracht 1 🛹 NPM install Progressive- enhancement
+Woensdag had ik met mijn team gekeken naar een goed metafoor om prograssive enhancement uit te leggen. Hiervoor zijn we uitgekomen bij een hotdog. Hierbij waren de het broodje en vlees de core elementen, en alles extra een enhancement.<br>
+We hadden ook snel een site gemaakt om ons voorbeeld te visualizeren, hier is het voorbeeld te zien: [Hotdog metafoor](https://pe-xi.vercel.app/)
 
-### Opdracht 2 ✨ Breek het Web
+### Opdracht 2 💔 Breek het Web
 
 ### De eindopdracht ✨ Progressive Enhanced Browser Technologie
 
