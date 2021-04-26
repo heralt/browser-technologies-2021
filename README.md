@@ -24,3 +24,21 @@ Voor de browsertech eind opdracht, heb ik ervoor gekozen om een album site te ma
 Het maken van de site deed ik in drie delen, eerst de html. Bijna alle functionaliteiten van de site zijn geschreven in html. Dit zorgt ervoor, dat als iemand javascript niet aan heeft staan, de site nog steeds goed werkt.
 Daarna heb ik css toegepast om de site in te delen op een duidelijke manier. En als laatst heb ik javascript gebruikt om enhancements toe te passen die het gebruik van de site fijner maken. 
 
+### De lagen
+De site is opgebouwd uit drie lagen: functional/reliable, usable en pleasurable. Ik zal uitleggen hoe ik toepassen van het bouwen in lagen heb toegepast.
+
+## Functional/reliable 
+Deze laag bestaat uit alle functionaliteiten die aan de core van jouw systeem zijn. Deze functies zouden altijd moeten werken, ook als een gebruiker geen javascript of css kan of wil gebruiken.
+Voordat ik begonnen was met het schrijven van de site, had ik een paar functionaliteiten gekozen die het altijd zouden moeten doen:
+- Album creeren
+- fotos toevoegen
+- meta-data kunnen toevoegen aan image
+
+Maar tijdens het schrijven van de site kwam ik er snel achter dat ik het grootste gedeelte van de site in de functional laag kan schrijven. Het enige wat altijd op de client moet gebeuren is het renderen van server data, en dat is heel makkelijk te doen met EJS. De rest kan wel op de client, maar het hoeft niet. Voor het creeren van albums, het toevoegen van meta-data en het toevoegen van afbeeldingen wordt de server gebruikt.
+
+Het enige wat niet werkt in deze laag, is de drag n drop functie. Omdat deze helemaal bestaat uit client side javascript.
+
+## Usable
+In de useable laag wordt er css toegevoegd aan de site. Nu zet je alles wat je in de eerste laag hebt gebouwd op de goede plek. En kijk je wat er gebeurt als je de scherm size verandert, en hoe je dat kan afvangen en nog steeds je site mooi houdt.
+
+In deze laag heb ik de heb ik de indeling van de site verbeterd. Ook heb ik in deze laag toegevoegd dat de slideshow zonder javascript snapped op foto's en dat de indeling van de site wordt verandert als het scherm kleiner wordt. 
