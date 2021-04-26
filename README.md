@@ -18,6 +18,7 @@ Ik heb twee korte verslagen geschreven en die zijn hier te vinden:
 - [afbeeldingen](https://github.com/sjagoori/pe/wiki/Afbeeldingen--uitzetten----heralt)
 
 ### De eindopdracht ✨ Progressive Enhanced Browser Technologie
-Voor de browsertech eind opdracht, heb ik ervoor gekozen om een album site te maken. Hiervoor had ik eerst een paar simpele designs getekend, een paar keer aangepast om het gebruik van de site iets te versimpelen en daarna ben ik begonnen met het creëren van de site.<br>
-Het maken van de site deed ik in drie delen, eerst de html. Bijna alle functionaliteiten van de site zijn geschreven in html. Dit zorgt ervoor, dat als iemand javascript niet aan heeft staan, de site nog steeds goed werkt.<br>
+Voor de browsertech eind opdracht, heb ik ervoor gekozen om een album site te maken. Hiervoor had ik eerst een paar simpele designs getekend, een paar keer aangepast om het gebruik van de site iets te versimpelen en daarna ben ik begonnen met het creëren van de site.
+
+Het maken van de site deed ik in drie delen, eerst de html. Bijna alle functionaliteiten van de site zijn geschreven in html. Dit zorgt ervoor, dat als iemand javascript niet aan heeft staan, de site nog steeds goed werkt.
 Daarna heb ik css toegepast om de site in te delen op een duidelijke manier. En als laatst heb ik javascript gebruikt om enhancements toe te passen die het gebruik van de site fijner maken. 
