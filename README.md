@@ -42,3 +42,8 @@ Het enige wat niet werkt in deze laag, is de drag n drop functie. Omdat deze hel
 In de useable laag wordt er css toegevoegd aan de site. Nu zet je alles wat je in de eerste laag hebt gebouwd op de goede plek. En kijk je wat er gebeurt als je de scherm size verandert, en hoe je dat kan afvangen en nog steeds je site mooi houdt.
 
 In deze laag heb ik de heb ik de indeling van de site verbeterd. Ook heb ik in deze laag toegevoegd dat de slideshow zonder javascript snapped op foto's en dat de indeling van de site wordt verandert als het scherm kleiner wordt. 
+
+## Pleasurable 
+Deze laag voeg je de nieuwste css en javascript toe je site. Dit krijgen gebruikers te zien, die css en javascript volledig kunnen gebruiken. 
+
+In deze laag heb een drag n drop functie en slideshow gebouwd. 
