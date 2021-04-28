@@ -24,11 +24,10 @@ Voor de browsertech eind opdracht, heb ik ervoor gekozen om een album site te ma
 ### Demo link:<br>
 [Album app](https://btalbum.herokuapp.com/)
 
-### Site opbouw
-Tijdens het creëren van de site heb ik de progressive enhancement manier van web development toegepast. Dit betekent dat je de development van jouw site opdeelt in 3 tot 4 delen. Je begint bij de core laag, en doet daar steeds een enhancement laag bovenop. Reden hiervoor, is dat als alle enhancement lagen wegvallen, de core laag het nog steeds blijft doen.
-De site is opgebouwd uit drie lagen: functional/reliable, usable en pleasurable. Ik zal uitleggen hoe ik toepassen van het bouwen in lagen heb toegepast.
+## Site opbouw
+Tijdens het creëren van de site heb ik de progressive enhancement manier van web development toegepast. Dit betekent dat je de development van jouw site opdeelt in 3 tot 4 delen. Je begint bij de core laag, en doet daar steeds een enhancement laag bovenop. Reden hiervoor, is dat als alle enhancement lagen wegvallen, de core laag het nog steeds blijft doen.<br>
 
-## Functional/reliable 
+### Functional/reliable 
 Deze laag bestaat uit alle functionaliteiten die aan de core van jouw systeem zijn. Dit zijn functies die altijd zouden moeten werken, ook als een gebruiker geen javascript of css kan of wil gebruiken.
 
 Voordat ik begon met het schrijven van de site, had ik een paar functionaliteiten gekozen die het altijd zouden moeten doen:
@@ -36,17 +35,16 @@ Voordat ik begon met het schrijven van de site, had ik een paar functionaliteite
 - fotos toevoegen
 - meta-data kunnen toevoegen aan image
 
-
 Maar tijdens het schrijven van de site kwam ik er snel achter dat ik het grootste gedeelte van de site in de functional laag kan schrijven. Het enige wat altijd op de client moet gebeuren is het renderen van server data, en dat is heel makkelijk te doen met EJS. De rest kan wel op de client, maar het hoeft niet. Voor het creeren van albums, het toevoegen van meta-data en het toevoegen van afbeeldingen wordt de server gebruikt.
 
 Het enige wat niet werkt in deze laag, is de drag n drop functie. Omdat deze helemaal bestaat uit client side javascript.
 
-## Usable
+### Usable
 In de useable laag wordt er css toegevoegd aan de site. Nu zet je alles wat je in de eerste laag hebt gebouwd op de goede plek. En kijk je wat er gebeurt als je de scherm size verandert, en hoe je dat kan afvangen en nog steeds je site mooi houdt.
 
 In deze laag heb ik de heb ik de indeling van de site verbeterd. Ook heb ik in deze laag toegevoegd dat de slideshow zonder javascript snapped op foto's en dat de indeling van de site wordt verandert als het scherm kleiner wordt. 
 
-## Pleasurable 
+### Pleasurable 
 Deze laag voeg je de nieuwste css en javascript toe je site. Dit krijgen gebruikers te zien, die css en javascript volledig kunnen gebruiken. 
 
 In deze laag heb een drag n drop functie en slideshow gebouwd. 
