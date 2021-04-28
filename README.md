@@ -22,6 +22,7 @@ Voor de browsertech eind opdracht, heb ik ervoor gekozen om een album site te ma
 - [Wireflows](https://github.com/heralt/browser-technologies-2021/wiki/browser-wireflow)
 
 ### Demo link:<br>
+![Prototype image](https://github.com/heralt/browser-technologies-2021/blob/master/project%20utils/homescreen.png?raw=true)
 [Album app](https://btalbum.herokuapp.com/)
 
 ## Site opbouw
