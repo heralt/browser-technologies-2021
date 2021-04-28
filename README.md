@@ -21,18 +21,20 @@ Ik heb twee korte verslagen geschreven en die zijn hier te vinden:
 Voor de browsertech eind opdracht, heb ik ervoor gekozen om een album site te maken. Hiervoor had ik eerst een paar simpele designs getekend, een paar keer aangepast om het gebruik van de site iets te versimpelen en daarna ben ik begonnen met het creëren van de site.
 - [Wireflows](https://github.com/heralt/browser-technologies-2021/wiki/browser-wireflow)
 
-Het maken van de site deed ik in drie delen, eerst de html. Bijna alle functionaliteiten van de site zijn geschreven in html. Dit zorgt ervoor, dat als iemand javascript niet aan heeft staan, de site nog steeds goed werkt.
-Daarna heb ik css toegepast om de site in te delen op een duidelijke manier. En als laatst heb ik javascript gebruikt om enhancements toe te passen die het gebruik van de site fijner maken. 
+### Demo link: [Album app](https://btalbum.herokuapp.com/)
 
 ### De lagen
+Tijdens het creëren van de site heb ik de progressive enhancement manier van web development toegepast. Dit betekent dat je de development van jouw site opdeelt in 3 tot 4 delen. 
 De site is opgebouwd uit drie lagen: functional/reliable, usable en pleasurable. Ik zal uitleggen hoe ik toepassen van het bouwen in lagen heb toegepast.
 
 ## Functional/reliable 
-Deze laag bestaat uit alle functionaliteiten die aan de core van jouw systeem zijn. Deze functies zouden altijd moeten werken, ook als een gebruiker geen javascript of css kan of wil gebruiken.
-Voordat ik begonnen was met het schrijven van de site, had ik een paar functionaliteiten gekozen die het altijd zouden moeten doen:
+Deze laag bestaat uit alle functionaliteiten die aan de core van jouw systeem zijn. Dit zijn functies die altijd zouden moeten werken, ook als een gebruiker geen javascript of css kan of wil gebruiken.
+
+Voordat ik begon met het schrijven van de site, had ik een paar functionaliteiten gekozen die het altijd zouden moeten doen:
 - Album creeren
 - fotos toevoegen
 - meta-data kunnen toevoegen aan image
+
 
 Maar tijdens het schrijven van de site kwam ik er snel achter dat ik het grootste gedeelte van de site in de functional laag kan schrijven. Het enige wat altijd op de client moet gebeuren is het renderen van server data, en dat is heel makkelijk te doen met EJS. De rest kan wel op de client, maar het hoeft niet. Voor het creeren van albums, het toevoegen van meta-data en het toevoegen van afbeeldingen wordt de server gebruikt.
 
