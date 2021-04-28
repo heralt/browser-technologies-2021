@@ -77,3 +77,6 @@ in Safari werkt de app goed. Omdat ik kleine schermen afvang in mijn css code, b
   <br>
   <img src="https://github.com/heralt/browser-technologies-2021/blob/master/project%20utils/android(2).jpg?raw=true" alt="Ihpone meta scherm" width="400vw">
 </details>
+
+## Test verslag
+Tijdens de development heb vooral gekeken naar dat de site blijft werken als de javascript uit staat.
