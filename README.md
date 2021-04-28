@@ -54,11 +54,10 @@ In de Chrome web browser werkt de app perfect. Dit komt omdat ik de Chrome brows
 
 <details>
 <summary>Edge</summary>
-With server side rendering the client fetches a fully rendered page from the server. With client side rendering, the browser has to do seperate fetches for the css and javascript files. With serverside rendering all of this is done serverside.
-<br><br> 
-With client side rendering the javascript also runs in the client, which means that if the javascript is turned off fetches will also not be done. With server side rendering, the fetches are done in the server, so turning off the javascript in the client will not cause the fetches to not be done in the server.
-<br><br>
-This is the biggest benefit I've taken from serverside rendering, turning off the javascript still lets all my fetches work. In the clientside version of this app, the browser would stop fetching if the javascript was turned off. 
+In de Edge browser werkt de site ook als normaal, er zijn maar een paar kleine verschillen met de Chrome browser. 
+  <br>- In de Edge browser zijn de javascript slideshow knoppen over de plaatjes heen, inplaats van naast de plaatjes.
+  <br>- Ook werkt de slideshow die geen javascript gebruikt beter in de Edge browser dan in de Chrome browser. Je kan in de Edge browser de pijlen knoppen gebruiken om van afbeelding te wisselen. In de Chrome browser werkt dit niet goed.
+  <img src="https://github.com/heralt/browser-technologies-2021/blob/master/project%20utils/edge%20slideshow.png?raw=true" alt="js pijlen">
 </details>
 
 <details>
