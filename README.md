@@ -55,15 +55,16 @@ In de Chrome web browser werkt de app perfect. Dit komt omdat ik de Chrome brows
 <details>
 <summary>Edge</summary>
 In de Edge browser werkt de site ook als normaal, er zijn maar een paar kleine verschillen met de Chrome browser. 
-  <br>- In de Edge browser zijn de javascript slideshow knoppen over de plaatjes heen, inplaats van naast de plaatjes.
-  <br>- Ook werkt de slideshow die geen javascript gebruikt beter in de Edge browser dan in de Chrome browser. Je kan in de Edge browser de pijlen knoppen gebruiken om van afbeelding te wisselen. In de Chrome browser werkt dit niet goed.
+  <ul>
+  <li>In de Edge browser zijn de javascript slideshow knoppen over de plaatjes heen, inplaats van naast de plaatjes.
+  <li>Ook werkt de slideshow die geen javascript gebruikt beter in de Edge browser dan in de Chrome browser. Je kan in de Edge browser de pijlen knoppen gebruiken om van afbeelding te wisselen. In de Chrome browser werkt dit niet goed.
+  </ul>
   <img src="https://github.com/heralt/browser-technologies-2021/blob/master/project%20utils/edge%20slideshow.png?raw=true" alt="js pijlen">
 </details>
 
 <details>
 <summary>Iphone safari</summary>
-in Safari werkt de app goed. Omdat ik kleine schermen afvang in mijn css code, blijft de app er ook goed uitzien. Verder werkt alles naar behoren.<br>
-Het enige waar ik een verbeter punt zie, is dat de afbeeldingen in het meta scherm wat kleiner zouden kunnen.
+in Safari werkt de app goed. Omdat ik kleine schermen afvang in mijn css code, blijft de app er ook goed uitzien. Verder werkt alles naar behoren. Het enige waar ik een verbeter punt zie, is dat de afbeeldingen in het meta scherm wat kleiner zouden kunnen.
   <br>
   <img src="https://github.com/heralt/browser-technologies-2021/blob/master/project%20utils/iphone%20meta.png?raw=true" alt="Ihpone meta scherm">
 </details>
