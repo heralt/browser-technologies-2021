@@ -28,16 +28,12 @@ Voor de browsertech eind opdracht, heb ik ervoor gekozen om een album site te ma
 Tijdens het creëren van de site heb ik de progressive enhancement manier van web development toegepast. Dit betekent dat je de development van jouw site opdeelt in 3 tot 4 delen. Je begint bij de core laag, en doet daar steeds een enhancement laag bovenop. Reden hiervoor, is dat als alle enhancement lagen wegvallen, de core laag het nog steeds blijft doen.<br>
 
 ### Functional/reliable 
-Deze laag bestaat uit alle functionaliteiten die aan de core van jouw systeem zijn. Dit zijn functies die altijd zouden moeten werken, ook als een gebruiker geen javascript of css kan of wil gebruiken.
+Deze laag bestaat uit alle functionaliteiten die in de core van jouw systeem zijn. Dit zijn functies die altijd zouden moeten werken, ook als een gebruiker geen javascript of css kan of wil gebruiken.
 
-Voordat ik begon met het schrijven van de site, had ik een paar functionaliteiten gekozen die het altijd zouden moeten doen:
-- Album creeren
+Mijn gekozen core functionaliteiten van album app zijn: 
+- Album creëren
 - fotos toevoegen
 - meta-data kunnen toevoegen aan image
-
-Maar tijdens het schrijven van de site kwam ik er snel achter dat ik het grootste gedeelte van de site in de functional laag kan schrijven. Het enige wat altijd op de client moet gebeuren is het renderen van server data, en dat is heel makkelijk te doen met EJS. De rest kan wel op de client, maar het hoeft niet. Voor het creeren van albums, het toevoegen van meta-data en het toevoegen van afbeeldingen wordt de server gebruikt.
-
-Het enige wat niet werkt in deze laag, is de drag n drop functie. Omdat deze helemaal bestaat uit client side javascript.
 
 ### Usable
 In de useable laag wordt er css toegevoegd aan de site. Nu zet je alles wat je in de eerste laag hebt gebouwd op de goede plek. En kijk je wat er gebeurt als je de scherm size verandert, en hoe je dat kan afvangen en nog steeds je site mooi houdt.
