@@ -73,7 +73,7 @@ in Safari werkt de app goed. Omdat ik kleine schermen afvang in mijn css code, b
   In de android browser werkt de app het slechtst. Als je op de home pagina op de afbeeldingen naar beneden scrolt, zien de toegevoegde plaatjes er heel vreemd uit. Ze zijn samengedrukt en niet de goede maat.<br> 
   <img src="https://github.com/heralt/browser-technologies-2021/blob/master/project%20utils/adroid(2).jpg?raw=true" alt="Ihpone meta scherm" width="400vw">
   <br>
-  Ook overlappen de afbeeldingen elkaar, in het album creëer scherm.
+  In het album creëer scherm zijn er ook fouten. De afbeeldingen die je kan toevoegen aan een album overlappen elkaar. 
   <br>
   <img src="https://github.com/heralt/browser-technologies-2021/blob/master/project%20utils/android(2).jpg?raw=true" alt="Ihpone meta scherm" width="400vw">
 </details>
