@@ -47,10 +47,9 @@ Deze laag voeg je de nieuwste css en javascript toe aan je site. Dit krijgen geb
 In deze laag heb een drag n drop functie en slideshow gebouwd. Deze functies horen bij de pleasurable laag, omdat ze bestaan uit client-side javascript. Dit kan bij sommige mensen uitstaan of niet goed ondersteund worden, dus zijn de slideshow en drag n drop toegevoegd in de laatste laag van mijn site. 
 
 ## Testen in browsers
-<details>
-<summary>Chrome</summary>
+### Chrome
 In de Chrome web browser werkt de app perfect. Dit komt omdat ik de Chrome browser gebruikte tijdens het developen van de site.
-</details>
+
 
 <details>
 <summary>Edge</summary>
@@ -64,7 +63,7 @@ In de Edge browser werkt de site ook als normaal, er zijn maar een paar kleine v
 
 <details>
 <summary>Iphone safari</summary>
-in Safari werkt de app goed. Omdat ik kleine schermen afvang in mijn css code, blijft de app er ook goed uitzien. Verder werkt alles naar behoren. Het enige waar ik een verbeter punt zie, is dat de afbeeldingen in het meta scherm wat kleiner zouden kunnen.
+in Safari werkt de app goed. Omdat ik kleine schermen afvang in mijn css code, blijft de app er ook goed uitzien. Verder werkt alles naar behoren. Het enige verbeter punt dat ik zie, is dat de afbeeldingen in het meta scherm wat kleiner zouden kunnen.
   <br>
   <img src="https://github.com/heralt/browser-technologies-2021/blob/master/project%20utils/iphone%20meta.png?raw=true" alt="Ihpone meta scherm">
 </details>
