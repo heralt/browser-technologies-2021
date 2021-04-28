@@ -21,9 +21,9 @@ Ik heb twee korte verslagen geschreven en die zijn hier te vinden:
 Voor de browser tech eind opdracht, heb ik ervoor gekozen om een album site te maken. Hiervoor had ik eerst een paar simpele designs getekend, een paar keer aangepast om het gebruik van de site iets te versimpelen en daarna ben ik begonnen met het creëren van de site.
 - [Wireflows](https://github.com/heralt/browser-technologies-2021/wiki/browser-wireflow)
 
-### Demo link:<br>
+### Album app<br>
 ![Prototype image](https://github.com/heralt/browser-technologies-2021/blob/master/project%20utils/homescreen.png?raw=true)
-[Album app](https://btalbum.herokuapp.com/)
+Link: [Album app](https://btalbum.herokuapp.com/)
 
 ## Site opbouw
 Tijdens het creëren van de site heb ik de progressive enhancement manier van web development toegepast. Dit betekent dat je de development van jouw site opdeelt in 3 tot 4 delen. Je begint bij de core laag, en doet daar steeds een enhancement laag bovenop. Reden hiervoor, is dat als alle enhancement lagen wegvallen, de core laag het nog steeds blijft doen.<br>
