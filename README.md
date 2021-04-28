@@ -18,7 +18,7 @@ Ik heb twee korte verslagen geschreven en die zijn hier te vinden:
 - [afbeeldingen](https://github.com/sjagoori/pe/wiki/Afbeeldingen--uitzetten----heralt)
 
 ### De eindopdracht ✨ Progressive Enhanced Browser Technologie
-Voor de browser tech eind opdracht, heb ik ervoor gekozen om een album site te maken. Hiervoor had ik eerst een paar simpele designs getekend, een paar keer aangepast om het gebruik van de site iets te versimpelen en daarna ben ik begonnen met het creëren van de site.
+Voor de browser tech eind opdracht, heb ik ervoor gekozen om een album site te maken. Hiervoor had ik eerst een paar simpele designs getekend, daarna een paar keer aangepast om het gebruik van de site iets te versimpelen en daarna ben ik begonnen met het creëren van de site.
 - [Wireflows](https://github.com/heralt/browser-technologies-2021/wiki/browser-wireflow)
 
 ### Album app<br>
@@ -26,7 +26,7 @@ Voor de browser tech eind opdracht, heb ik ervoor gekozen om een album site te m
 Link: [Album app](https://btalbum.herokuapp.com/)
 
 ## Site opbouw
-Tijdens het creëren van de site heb ik de progressive enhancement manier van web development toegepast. Dit betekent dat je de development van jouw site opdeelt in 3 tot 4 delen. Je begint bij de core laag, en doet daar steeds een enhancement laag bovenop. Reden hiervoor, is dat als alle enhancement lagen wegvallen, de core laag het nog steeds blijft doen.<br>
+Tijdens het creëren van de site heb ik de progressive enhancement manier van web development toegepast. Dit betekent dat je de development van jouw site opdeelt in 3 tot 4 delen. Je begint bij de core laag, en doet daar steeds een enhancement laag bovenop. Reden hiervoor is, dat als alle enhancement lagen wegvallen, de core laag het nog steeds blijft doen.<br>
 
 ### Functional/reliable 
 Deze laag bestaat uit alle functionaliteiten die in de core van jouw systeem zijn. Deze moeten dus altijd werken, ook als een gebruiker geen javascript of css kan of wil gebruiken. 
@@ -61,28 +61,15 @@ In de Edge browser werkt de site ook als normaal, er zijn maar een paar kleine v
 </details>
 
 <details>
-<summary>Firefox</summary>
-With server side rendering the client fetches a fully rendered page from the server. With client side rendering, the browser has to do seperate fetches for the css and javascript files. With serverside rendering all of this is done serverside.
-<br><br> 
-With client side rendering the javascript also runs in the client, which means that if the javascript is turned off fetches will also not be done. With server side rendering, the fetches are done in the server, so turning off the javascript in the client will not cause the fetches to not be done in the server.
-<br><br>
-This is the biggest benefit I've taken from serverside rendering, turning off the javascript still lets all my fetches work. In the clientside version of this app, the browser would stop fetching if the javascript was turned off. 
-</details>
-
-<details>
 <summary>Iphone safari</summary>
-With server side rendering the client fetches a fully rendered page from the server. With client side rendering, the browser has to do seperate fetches for the css and javascript files. With serverside rendering all of this is done serverside.
-<br><br> 
-With client side rendering the javascript also runs in the client, which means that if the javascript is turned off fetches will also not be done. With server side rendering, the fetches are done in the server, so turning off the javascript in the client will not cause the fetches to not be done in the server.
-<br><br>
-This is the biggest benefit I've taken from serverside rendering, turning off the javascript still lets all my fetches work. In the clientside version of this app, the browser would stop fetching if the javascript was turned off. 
+in Safari werkt de app goed. Omdat ik kleine schermen afvang in mijn css code, blijft de app er ook goed uitzien. Verder werkt alles naar behoren.<br>
+Het enige waar ik een verbeter punt zie, is dat de afbeeldingen in het meta scherm wat kleiner zouden kunnen.
+  <br>
+  <img src="https://github.com/heralt/browser-technologies-2021/blob/master/project%20utils/iphone%20meta.png?raw=true" alt="Ihpone meta scherm">
 </details>
 
 <details>
 <summary>Android</summary>
-With server side rendering the client fetches a fully rendered page from the server. With client side rendering, the browser has to do seperate fetches for the css and javascript files. With serverside rendering all of this is done serverside.
-<br><br> 
-With client side rendering the javascript also runs in the client, which means that if the javascript is turned off fetches will also not be done. With server side rendering, the fetches are done in the server, so turning off the javascript in the client will not cause the fetches to not be done in the server.
-<br><br>
-This is the biggest benefit I've taken from serverside rendering, turning off the javascript still lets all my fetches work. In the clientside version of this app, the browser would stop fetching if the javascript was turned off. 
+  In de android browser werkt de app het slechtst. Als je op de home pagina op de afbeeldingen naar beneden scrolt, zien de toegevoegde plaatjes er heel vreemd uit. Ze zijn samengedrukt en niet goede maat.  
+  <img src="https://github.com/heralt/browser-technologies-2021/blob/master/project%20utils/adroid(2).jpg?raw=true" alt="Ihpone meta scherm" width="400vw">
 </details>
