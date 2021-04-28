@@ -28,7 +28,7 @@ Voor de browsertech eind opdracht, heb ik ervoor gekozen om een album site te ma
 Tijdens het creëren van de site heb ik de progressive enhancement manier van web development toegepast. Dit betekent dat je de development van jouw site opdeelt in 3 tot 4 delen. Je begint bij de core laag, en doet daar steeds een enhancement laag bovenop. Reden hiervoor, is dat als alle enhancement lagen wegvallen, de core laag het nog steeds blijft doen.<br>
 
 ### Functional/reliable 
-Deze laag bestaat uit alle functionaliteiten die in de core van jouw systeem zijn. Dit zijn functies die altijd zouden moeten werken, ook als een gebruiker geen javascript of css kan of wil gebruiken.
+Deze laag bestaat uit alle functionaliteiten die in de core van jouw systeem zijn. Deze moeten dus altijd werken, ook als een gebruiker geen javascript of css kan of wil gebruiken. 
 
 Mijn gekozen core functionaliteiten van album app zijn: 
 - Album creëren
@@ -41,6 +41,34 @@ In de useable laag wordt er css toegevoegd aan de site. Nu zet je alles wat je i
 In deze laag heb ik de heb ik de indeling van de site verbeterd. Ook heb ik in deze laag toegevoegd dat de slideshow zonder javascript snapped op foto's en dat de indeling van de site wordt verandert als het scherm kleiner wordt. 
 
 ### Pleasurable 
-Deze laag voeg je de nieuwste css en javascript toe je site. Dit krijgen gebruikers te zien, die css en javascript volledig kunnen gebruiken. 
+Deze laag voeg je de nieuwste css en javascript toe aan je site. Dit krijgen gebruikers te zien als hun browsers alle features van css en javascript ondersteund.
 
-In deze laag heb een drag n drop functie en slideshow gebouwd. 
+In deze laag heb een drag n drop functie en slideshow gebouwd. Deze functies horen bij de pleasurable laag, omdat ze bestaan uit client-side javascript. Dit kan bij sommige mensen uitstaan of niet goed ondersteund worden, dus zijn de slideshow en drag n drop toegevoegd in de laatste laag van mijn site. 
+
+## Testing in browsers
+<details>
+<summary>Chrome</summary>
+With server side rendering the client fetches a fully rendered page from the server. With client side rendering, the browser has to do seperate fetches for the css and javascript files. With serverside rendering all of this is done serverside.
+<br><br> 
+With client side rendering the javascript also runs in the client, which means that if the javascript is turned off fetches will also not be done. With server side rendering, the fetches are done in the server, so turning off the javascript in the client will not cause the fetches to not be done in the server.
+<br><br>
+This is the biggest benefit I've taken from serverside rendering, turning off the javascript still lets all my fetches work. In the clientside version of this app, the browser would stop fetching if the javascript was turned off. 
+</details>
+
+<details>
+<summary>Edge</summary>
+With server side rendering the client fetches a fully rendered page from the server. With client side rendering, the browser has to do seperate fetches for the css and javascript files. With serverside rendering all of this is done serverside.
+<br><br> 
+With client side rendering the javascript also runs in the client, which means that if the javascript is turned off fetches will also not be done. With server side rendering, the fetches are done in the server, so turning off the javascript in the client will not cause the fetches to not be done in the server.
+<br><br>
+This is the biggest benefit I've taken from serverside rendering, turning off the javascript still lets all my fetches work. In the clientside version of this app, the browser would stop fetching if the javascript was turned off. 
+</details>
+
+<details>
+<summary>Firefox</summary>
+With server side rendering the client fetches a fully rendered page from the server. With client side rendering, the browser has to do seperate fetches for the css and javascript files. With serverside rendering all of this is done serverside.
+<br><br> 
+With client side rendering the javascript also runs in the client, which means that if the javascript is turned off fetches will also not be done. With server side rendering, the fetches are done in the server, so turning off the javascript in the client will not cause the fetches to not be done in the server.
+<br><br>
+This is the biggest benefit I've taken from serverside rendering, turning off the javascript still lets all my fetches work. In the clientside version of this app, the browser would stop fetching if the javascript was turned off. 
+</details>
