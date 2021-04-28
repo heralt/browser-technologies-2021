@@ -18,7 +18,7 @@ Ik heb twee korte verslagen geschreven en die zijn hier te vinden:
 - [afbeeldingen](https://github.com/sjagoori/pe/wiki/Afbeeldingen--uitzetten----heralt)
 
 ### De eindopdracht ✨ Progressive Enhanced Browser Technologie
-Voor de browsertech eind opdracht, heb ik ervoor gekozen om een album site te maken. Hiervoor had ik eerst een paar simpele designs getekend, een paar keer aangepast om het gebruik van de site iets te versimpelen en daarna ben ik begonnen met het creëren van de site.
+Voor de browser tech eind opdracht, heb ik ervoor gekozen om een album site te maken. Hiervoor had ik eerst een paar simpele designs getekend, een paar keer aangepast om het gebruik van de site iets te versimpelen en daarna ben ik begonnen met het creëren van de site.
 - [Wireflows](https://github.com/heralt/browser-technologies-2021/wiki/browser-wireflow)
 
 ### Demo link:<br>
@@ -46,14 +46,10 @@ Deze laag voeg je de nieuwste css en javascript toe aan je site. Dit krijgen geb
 
 In deze laag heb een drag n drop functie en slideshow gebouwd. Deze functies horen bij de pleasurable laag, omdat ze bestaan uit client-side javascript. Dit kan bij sommige mensen uitstaan of niet goed ondersteund worden, dus zijn de slideshow en drag n drop toegevoegd in de laatste laag van mijn site. 
 
-## Testing in browsers
+## Testen in browsers
 <details>
 <summary>Chrome</summary>
-With server side rendering the client fetches a fully rendered page from the server. With client side rendering, the browser has to do seperate fetches for the css and javascript files. With serverside rendering all of this is done serverside.
-<br><br> 
-With client side rendering the javascript also runs in the client, which means that if the javascript is turned off fetches will also not be done. With server side rendering, the fetches are done in the server, so turning off the javascript in the client will not cause the fetches to not be done in the server.
-<br><br>
-This is the biggest benefit I've taken from serverside rendering, turning off the javascript still lets all my fetches work. In the clientside version of this app, the browser would stop fetching if the javascript was turned off. 
+In de Chrome web browser werkt de app perfect. Dit komt omdat ik de Chrome browser gebruikte tijdens het developen van de site.
 </details>
 
 <details>
@@ -67,6 +63,15 @@ This is the biggest benefit I've taken from serverside rendering, turning off th
 
 <details>
 <summary>Firefox</summary>
+With server side rendering the client fetches a fully rendered page from the server. With client side rendering, the browser has to do seperate fetches for the css and javascript files. With serverside rendering all of this is done serverside.
+<br><br> 
+With client side rendering the javascript also runs in the client, which means that if the javascript is turned off fetches will also not be done. With server side rendering, the fetches are done in the server, so turning off the javascript in the client will not cause the fetches to not be done in the server.
+<br><br>
+This is the biggest benefit I've taken from serverside rendering, turning off the javascript still lets all my fetches work. In the clientside version of this app, the browser would stop fetching if the javascript was turned off. 
+</details>
+
+<details>
+<summary>Iphone safari</summary>
 With server side rendering the client fetches a fully rendered page from the server. With client side rendering, the browser has to do seperate fetches for the css and javascript files. With serverside rendering all of this is done serverside.
 <br><br> 
 With client side rendering the javascript also runs in the client, which means that if the javascript is turned off fetches will also not be done. With server side rendering, the fetches are done in the server, so turning off the javascript in the client will not cause the fetches to not be done in the server.
