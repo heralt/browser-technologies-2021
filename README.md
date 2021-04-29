@@ -78,4 +78,9 @@ In Safari werkt de app goed. Kleine schermen worden af gevangen in mijn css code
 </details>
 
 ## Test verslag
-De enhancement features die ik had gekozen om in mijn app te gebruiken zijn drag-n-drop, slideshow, flexbox, snappoints en overflow. 
+De enhancement features die ik had gekozen om in mijn app te gebruiken zijn drag-n-drop, slideshow, flexbox, snappoints en overflow.<br>
+Snappoints werkt in sommige browsers beter dan andere. In de Chrome browser, werkt het niet heel goed. De snappoints zorgen ervoor dat, tijdens het scrollen, de scroll bar blijft hangen op een afbeelding als je niet ver genoeg gescrolt hebt. In de Edge browser werkt het een stuk beter, want je kan de pijlen knoppen gebruiken om van afbeelding te wisselen. <br>
+De drag-n-drop functie werkt alleen op de computer. Om te draggen, moet je een afbeelding lang ingedrukt houden, op telefoons triggered dit een ingebouwde functionaliteit van de browswer zelf. Je kan dan bijv. de ingedrukte afbeelding opslaan op je telefoon.
+<br><br>
+In elke browser waarin ik heb getest, heb ik de javascript uitgezet om te kijken of de browser het nog goed doet. Ook moest ik de javascript uitzetten om erachter te komen hoe de slideshow zonder javascript het deed op de verschillende browsers.<br>
+Na het uitzetten, bleef de app het altijd goed doen. Dit komt omdat het grootste gedeelte van mijn app bestaat uit html en heel veel server-side code.
