@@ -48,8 +48,7 @@ In deze laag heb een drag n drop functie en slideshow gebouwd. Deze functies hor
 
 ## Testen in browsers
 ### Chrome
-In de Chrome web browser werkt de app perfect. Dit komt omdat ik de Chrome browser gebruikte tijdens het developen van de site.
-
+In de Chrome web browser werkt de app perfect, behalve de snappoints van de slideshow zonder javascript. Je moet de pijlen van de scrollbar ingedrukt houden om naar de volgende afbeelding te gaan. Dat was het enige probleem in de Chrome browser. 
 
 <details>
 <summary>Edge</summary>
@@ -63,7 +62,7 @@ In de Edge browser werkt de site ook als normaal, er zijn maar een paar kleine v
 
 <details>
 <summary>Iphone safari</summary>
-in Safari werkt de app goed. Omdat ik kleine schermen afvang in mijn css code, blijft de app er ook goed uitzien. Verder werkt alles naar behoren. Het enige verbeter punt dat ik zie, is dat de afbeeldingen in het meta scherm wat kleiner zouden kunnen.
+In Safari werkt de app goed. Kleine schermen worden af gevangen in mijn css code, dus blijft de app er ook goed uitzien. Het enige verbeter punt dat ik zie, is dat de afbeeldingen in het meta scherm wat kleiner zouden kunnen.
   <br>
   <img src="https://github.com/heralt/browser-technologies-2021/blob/master/project%20utils/iphone%20meta.png?raw=true" alt="Ihpone meta scherm">
 </details>
@@ -79,4 +78,4 @@ in Safari werkt de app goed. Omdat ik kleine schermen afvang in mijn css code, b
 </details>
 
 ## Test verslag
-Tijdens de development heb vooral gekeken naar dat de site blijft werken als de javascript uit staat.
+De enhancement features die ik had gekozen om in mijn app te gebruiken zijn drag-n-drop, slideshow, flexbox, snappoints en overflow. 
