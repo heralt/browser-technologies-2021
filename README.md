@@ -42,14 +42,14 @@ Later toegevoegde functies:
 - Afbeelding/album verwijderen
 
 ### Usable
-In de useable laag wordt er css toegevoegd aan de site. Nu zet je alles wat je in de eerste laag hebt gebouwd op de goede plek. En kijk je wat er gebeurt als je de scherm size verandert, en hoe je dat kan afvangen en nog steeds je site mooi houdt.
+In de useable laag wordt er css toegevoegd aan de site. Nu zet je alles wat je in de eerste laag hebt gebouwd op de goede plek, kijk je wat er gebeurt als je de scherm size verandert en hoe je dat kan afvangen om nog steeds je site mooi houdt.
 
 In deze laag heb ik de heb ik de indeling van de site verbeterd. Ook heb ik in deze laag toegevoegd dat de slideshow zonder javascript snapped op foto's en dat de indeling van de site wordt verandert als het scherm kleiner wordt. 
 
 ### Pleasurable 
-Deze laag voeg je de nieuwste css en javascript toe aan je site. Dit krijgen gebruikers te zien als hun browsers alle features van css en javascript ondersteund.
+Deze laag voeg je de javascript en/of nieuwste css toe aan je site. Dit krijgen gebruikers te zien als hun browser alle features van css en javascript ondersteund.
 
-In deze laag heb een drag n drop functie en slideshow gebouwd. Deze functies horen bij de pleasurable laag, omdat ze bestaan uit client-side javascript. Dit kan bij sommige mensen uitstaan of niet goed ondersteund worden, dus zijn de slideshow en drag n drop toegevoegd in de laatste laag van mijn site. 
+In deze laag heb een drag-n-drop functie en slideshow gebouwd. Deze functies horen bij de pleasurable laag, omdat ze bestaan uit client-side javascript. Dit kan bij sommige mensen uitstaan of niet goed ondersteund worden, dus zijn de slideshow en drag-n-drop toegevoegd in de laatste laag van mijn applicatie. 
 
 ## Testen in browsers
 ### Chrome
@@ -67,14 +67,14 @@ In de Edge browser werkt de site ook als normaal, er zijn maar een paar kleine v
 
 <details>
 <summary>Iphone safari</summary>
-In Safari werkt de app goed. Kleine schermen worden af gevangen in mijn css code, dus blijft de app er ook goed uitzien. Het enige verbeter punt dat ik zie, is dat de afbeeldingen in het meta scherm wat kleiner zouden kunnen.
+In Safari werkt de app goed. Kleine schermen worden afgevangen in mijn css code, dus blijft de app er ook goed uitzien. Het enige verbeter punt dat ik zie, is dat de afbeeldingen in het meta scherm wat kleiner zouden kunnen.
   <br>
   <img src="https://github.com/heralt/browser-technologies-2021/blob/master/project%20utils/iphone%20meta.png?raw=true" alt="Ihpone meta scherm">
 </details>
 
 <details>
 <summary>Android</summary>
-  In de android browser werkt de app het slechtst. Als je op de home pagina op de afbeeldingen naar beneden scrolt, zien de toegevoegde plaatjes er heel vreemd uit. Ze zijn samengedrukt en niet de goede maat.<br> 
+  In de android browser werkt de app het slechtst. Als je op de home pagina de afbeeldingen sectie naar beneden scrolt, zien de toegevoegde plaatjes er heel vreemd uit. Ze zijn samengedrukt en niet de goede maat.<br> 
   <img src="https://github.com/heralt/browser-technologies-2021/blob/master/project%20utils/adroid(2).jpg?raw=true" alt="Ihpone meta scherm" width="400vw">
   <br>
   In het album creëer scherm zijn er ook fouten. De afbeeldingen die je kan toevoegen aan een album overlappen elkaar. Hier zouden tussen de plaatjes een beetje afstand moeten zijn.
