@@ -18,7 +18,7 @@ Ik heb twee korte verslagen geschreven en die zijn hier te vinden:
 - [afbeeldingen](https://github.com/sjagoori/pe/wiki/Afbeeldingen--uitzetten----heralt)
 
 ### De eindopdracht ✨ Progressive Enhanced Browser Technologie
-Voor de browser tech eind opdracht, heb ik ervoor gekozen om een album site te maken. Hiervoor had ik eerst een paar simpele designs getekend, daarna een paar keer aangepast om het gebruik van de site iets te versimpelen en daarna ben ik begonnen met het creëren van de site.
+Voor de browser-tech eind opdracht, heb ik ervoor gekozen om een album site te maken. Hiervoor had ik eerst een paar simpele designs getekend. Deze heb ik daarna een paar keer aangepast om het gebruik van de site iets te versimpelen, door het aantal schermen te verminderen en daarna ben ik begonnen met het creëren van de site.
 - [Wireflows](https://github.com/heralt/browser-technologies-2021/wiki/browser-wireflow)
 
 ### Album app<br>
@@ -26,15 +26,20 @@ Voor de browser tech eind opdracht, heb ik ervoor gekozen om een album site te m
 Link: [Album app](https://btalbum.herokuapp.com/)
 
 ## Site opbouw
-Tijdens het creëren van de site heb ik de progressive enhancement manier van web development toegepast. Dit betekent dat je de development van jouw site opdeelt in 3 tot 4 delen. Je begint bij de core laag, en doet daar steeds een enhancement laag bovenop. Reden hiervoor is, dat als alle enhancement lagen wegvallen, de core laag het nog steeds blijft doen.<br>
+Tijdens het creëren van de site heb ik de progressive enhancement manier van web development toegepast. Dit betekent dat je de development van jouw site opdeelt in 3 tot 4 lagen. Je begint bij de core laag, en doet daar steeds een enhancement laag bovenop. Reden hiervoor is, dat als alle enhancement lagen wegvallen, de core laag het nog steeds goed blijft doen.<br>
 
 ### Functional/reliable 
 Deze laag bestaat uit alle functionaliteiten die in de core van jouw systeem zijn. Deze moeten dus altijd werken, ook als een gebruiker geen javascript of css kan of wil gebruiken. 
 
-Mijn gekozen core functionaliteiten van album app zijn: 
+Mijn gekozen core functionaliteiten van de album app zijn: 
 - Album creëren
 - fotos toevoegen
 - meta-data kunnen toevoegen aan image
+
+Hier begon ik mee, maar later kwamen er meer bij, omdat ik het grootste gedeelte van mijn javascript kon schrijven op de server.<br> 
+Later toegevoegde functies:
+- slideshow(no js versie)
+- Afbeelding/album verwijderen
 
 ### Usable
 In de useable laag wordt er css toegevoegd aan de site. Nu zet je alles wat je in de eerste laag hebt gebouwd op de goede plek. En kijk je wat er gebeurt als je de scherm size verandert, en hoe je dat kan afvangen en nog steeds je site mooi houdt.
