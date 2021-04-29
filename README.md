@@ -36,7 +36,7 @@ Mijn gekozen core functionaliteiten van de album app zijn:
 - fotos toevoegen
 - meta-data kunnen toevoegen aan image
 
-Hier begon ik mee, maar later kwamen er meer bij, omdat ik het grootste gedeelte van mijn javascript kon schrijven op de server.<br> 
+Hier begon ik mee, maar later kwamen er meer bij, omdat ik het grootste gedeelte van mijn client-side code kon schrijven in html en EJS. Vooral door EJS kon ik op de server alle data verzamelen en filteren, en hoefde ik op de client alleen maar te renderen.<br> 
 Later toegevoegde functies:
 - slideshow(no js versie)
 - Afbeelding/album verwijderen
